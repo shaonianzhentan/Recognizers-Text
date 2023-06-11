@@ -3,8 +3,8 @@
 
 from setuptools import setup, find_packages
 
-NAME = "recognizers-text"
-VERSION = "1.0.0.a0"
+NAME = "ms-recognizers-text"
+VERSION = "1.0.0.a1"
 REQUIRES = ['emoji==2.0.0', 'multipledispatch']
 
 setup(
