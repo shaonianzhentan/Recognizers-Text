@@ -2,11 +2,11 @@
 #  Licensed under the MIT License.
 
 import pytest
-from recognizers_text import Culture
-from recognizers_sequence.sequence import SequenceOptions, SequenceRecognizer, ChinesePhoneNumberExtractorConfiguration
-from recognizers_sequence.sequence.models import PhoneNumberModel
-from recognizers_sequence.sequence.english.extractors import BasePhoneNumberExtractor
-from recognizers_sequence.sequence.english.parsers import PhoneNumberParser
+from ms_recognizers_text import Culture
+from ms_recognizers_sequence.sequence import SequenceOptions, SequenceRecognizer, ChinesePhoneNumberExtractorConfiguration
+from ms_recognizers_sequence.sequence.models import PhoneNumberModel
+from ms_recognizers_sequence.sequence.english.extractors import BasePhoneNumberExtractor
+from ms_recognizers_sequence.sequence.english.parsers import PhoneNumberParser
 
 
 class TestInitializationSequenceRecognizer:

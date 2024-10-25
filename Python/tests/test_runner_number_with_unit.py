@@ -3,7 +3,7 @@
 
 import pytest
 from runner import get_specs
-from recognizers_number_with_unit.number_with_unit.number_with_unit_recognizer import recognize_age, recognize_currency, \
+from ms_recognizers_number_with_unit.number_with_unit.number_with_unit_recognizer import recognize_age, recognize_currency, \
     recognize_dimension, recognize_temperature
 
 MODELFUNCTION = {

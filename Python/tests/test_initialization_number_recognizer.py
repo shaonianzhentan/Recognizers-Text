@@ -2,13 +2,13 @@
 #  Licensed under the MIT License.
 
 import pytest
-from recognizers_text import Culture
-from recognizers_number.number import NumberOptions, NumberModel, NumberRecognizer
-from recognizers_number.number.models import NumberMode
-from recognizers_number.number.parsers import BaseNumberParser
-from recognizers_number.number.parser_factory import ParserType, AgnosticNumberParserFactory
-from recognizers_number.number.english.extractors import EnglishIntegerExtractor, EnglishMergedNumberExtractor
-from recognizers_number.number.english.parsers import EnglishNumberParserConfiguration
+from ms_recognizers_text import Culture
+from ms_recognizers_number.number import NumberOptions, NumberModel, NumberRecognizer
+from ms_recognizers_number.number.models import NumberMode
+from ms_recognizers_number.number.parsers import BaseNumberParser
+from ms_recognizers_number.number.parser_factory import ParserType, AgnosticNumberParserFactory
+from ms_recognizers_number.number.english.extractors import EnglishIntegerExtractor, EnglishMergedNumberExtractor
+from ms_recognizers_number.number.english.parsers import EnglishNumberParserConfiguration
 
 
 class TestInitializationNumberRecognizer():

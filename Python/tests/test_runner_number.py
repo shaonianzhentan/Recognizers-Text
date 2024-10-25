@@ -3,7 +3,7 @@
 
 import pytest
 from runner import get_specs
-from recognizers_number.number.number_recognizer import recognize_number, recognize_ordinal, recognize_percentage
+from ms_recognizers_number.number.number_recognizer import recognize_number, recognize_ordinal, recognize_percentage
 
 MODELFUNCTION = {
     'Number': recognize_number,

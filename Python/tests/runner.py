@@ -6,7 +6,7 @@ import os
 import json
 import re
 import pytest
-from recognizers_text.culture import Culture
+from ms_recognizers_text.culture import Culture
 
 
 def split_all(path):

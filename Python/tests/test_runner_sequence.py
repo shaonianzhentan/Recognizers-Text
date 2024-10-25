@@ -3,7 +3,7 @@
 
 import pytest
 from runner import get_specs
-from recognizers_sequence.sequence.sequence_recognizer import *
+from ms_recognizers_sequence.sequence.sequence_recognizer import *
 
 MODEL_FUNCTION = {
     'PhoneNumber': recognize_phone_number,

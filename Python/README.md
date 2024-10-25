@@ -56,11 +56,11 @@ Or install Recognizer's suite with the following command:
 Once the proper package is installed, you'll need to reference the package:
 
 ````Python
-from recognizers_text import Culture, ModelResult
-from recognizers_number import NumberRecognizer
-from recognizers_number_with_unit import NumberWithUnitRecognizer 
-from recognizers_date_time import DateTimeRecognizer 
-from recognizers_sequence import SequenceRecognizer 
+from ms_recognizers_text import Culture, ModelResult
+from ms_recognizers_number import NumberRecognizer
+from ms_recognizers_number_with_unit import NumberWithUnitRecognizer 
+from ms_recognizers_date_time import DateTimeRecognizer 
+from ms_recognizers_sequence import SequenceRecognizer 
 ````
 
 Or, using the suite package:
@@ -83,7 +83,7 @@ result = model.parse('Twelve')
 Or, for less verbosity, you use the helper methods:
 
 ```Python
-from recognizers_number import recognize_number, Culture
+from ms_recognizers_number import recognize_number, Culture
 
 result = recognize_number("Twelve", Culture.English)
 ```

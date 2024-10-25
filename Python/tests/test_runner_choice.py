@@ -3,7 +3,7 @@
 
 import pytest
 from runner import get_specs
-from recognizers_choice import recognize_boolean
+from ms_recognizers_choice import recognize_boolean
 
 MODELFUNCTION = {'Boolean': recognize_boolean}
 

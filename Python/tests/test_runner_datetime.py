@@ -5,7 +5,7 @@ import importlib
 import datetime
 import pytest
 from runner import get_specs, CULTURES
-from recognizers_date_time import recognize_datetime
+from ms_recognizers_date_time import recognize_datetime
 
 MODELFUNCTION = {
     'DateTime': recognize_datetime

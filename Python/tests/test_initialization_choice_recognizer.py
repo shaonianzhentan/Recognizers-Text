@@ -2,12 +2,12 @@
 #  Licensed under the MIT License.
 
 import pytest
-from recognizers_text import Culture
-from recognizers_choice.choice.models import BooleanModel
-from recognizers_choice.choice.parsers import BooleanParser
-from recognizers_choice.choice.extractors import BooleanExtractor
-from recognizers_choice.choice.recognizers_choice import ChoiceRecognizer, ChoiceOptions
-from recognizers_choice.choice.english.boolean import EnglishBooleanExtractorConfiguration
+from ms_recognizers_text import Culture
+from ms_recognizers_choice.choice.models import BooleanModel
+from ms_recognizers_choice.choice.parsers import BooleanParser
+from ms_recognizers_choice.choice.extractors import BooleanExtractor
+from ms_recognizers_choice.choice.recognizers_choice import ChoiceRecognizer, ChoiceOptions
+from ms_recognizers_choice.choice.english.boolean import EnglishBooleanExtractorConfiguration
 
 
 class TestInitializationChoiceRecognizer():
