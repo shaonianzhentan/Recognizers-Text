@@ -9,9 +9,9 @@ def read(fname):
     return open(os.path.join(os.path.dirname(__file__), fname)).read()
 
 
-NAME = "recognizers-text-number-with-unit"
+NAME = "ms-recognizers-text-number-with-unit"
 VERSION = "1.0.0.a0"
-REQUIRES = ['recognizers-text', 'recognizers-text-number', 'regex']
+REQUIRES = ['ms-recognizers-text', 'ms-recognizers-text-number', 'regex']
 
 setup(
     name=NAME,
