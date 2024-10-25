@@ -10,7 +10,7 @@ def read(fname):
 
 
 NAME = 'ms-recognizers-text-suite'
-VERSION = '1.0.0.a1'
+VERSION = '1.0.0'
 REQUIRES = ['ms-recognizers-text', 'recognizers-text-number', 'recognizers-text-number-with-unit',
             'recognizers-text-date-time', 'recognizers-text-sequence', 'recognizers-text-choice']
 
